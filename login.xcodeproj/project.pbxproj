@@ -13,6 +13,7 @@
 		885230EF263272E200DBCF3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885230EE263272E200DBCF3F /* Preview Assets.xcassets */; };
 		885230FA263272E200DBCF3F /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885230F9263272E200DBCF3F /* loginTests.swift */; };
 		88523105263272E200DBCF3F /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88523104263272E200DBCF3F /* loginUITests.swift */; };
+		8852311726329DCF00DBCF3F /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		88523100263272E200DBCF3F /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88523104263272E200DBCF3F /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		88523106263272E200DBCF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		885230E6263272E100DBCF3F /* login */ = {
 			isa = PBXGroup;
 			children = (
+				8852311526329DBA00DBCF3F /* Screens */,
 				885230E7263272E100DBCF3F /* loginApp.swift */,
 				885230E9263272E100DBCF3F /* ContentView.swift */,
 				885230EB263272E200DBCF3F /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				88523106263272E200DBCF3F /* Info.plist */,
 			);
 			path = loginUITests;
+			sourceTree = "<group>";
+		};
+		8852311526329DBA00DBCF3F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8852311726329DCF00DBCF3F /* WelcomeScreenView.swift in Sources */,
 				885230EA263272E100DBCF3F /* ContentView.swift in Sources */,
 				885230E8263272E100DBCF3F /* loginApp.swift in Sources */,
 			);
