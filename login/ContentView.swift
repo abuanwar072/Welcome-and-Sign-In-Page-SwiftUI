@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+   
     var body: some View {
-        VStack {
-            WelcomeScreenView()
-        }
+        WelcomeScreenView()
     }
 }
 
@@ -34,5 +33,9 @@ struct PrimaryButton: View {
             .cornerRadius(50)
     }
 }
+
+
+
+
 
 

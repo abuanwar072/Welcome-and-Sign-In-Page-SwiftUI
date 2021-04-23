@@ -14,6 +14,7 @@
 		885230FA263272E200DBCF3F /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885230F9263272E200DBCF3F /* loginTests.swift */; };
 		88523105263272E200DBCF3F /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88523104263272E200DBCF3F /* loginUITests.swift */; };
 		8852311726329DCF00DBCF3F /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */; };
+		8852311F2632A4D500DBCF3F /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852311E2632A4D500DBCF3F /* SignInScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		88523104263272E200DBCF3F /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		88523106263272E200DBCF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		8852311E2632A4D500DBCF3F /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */,
+				8852311E2632A4D500DBCF3F /* SignInScreenView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8852311F2632A4D500DBCF3F /* SignInScreenView.swift in Sources */,
 				8852311726329DCF00DBCF3F /* WelcomeScreenView.swift in Sources */,
 				885230EA263272E100DBCF3F /* ContentView.swift in Sources */,
 				885230E8263272E100DBCF3F /* loginApp.swift in Sources */,
