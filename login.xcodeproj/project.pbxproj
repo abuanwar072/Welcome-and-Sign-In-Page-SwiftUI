@@ -50,6 +50,7 @@
 		8852311626329DCF00DBCF3F /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		8852311E2632A4D500DBCF3F /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		88934F422634229600B116CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88934F432634232200B116CA /* ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		885230DB263272E100DBCF3F = {
 			isa = PBXGroup;
 			children = (
+				88934F432634232200B116CA /* ui.png */,
 				88934F422634229600B116CA /* README.md */,
 				885230E6263272E100DBCF3F /* login */,
 				885230F8263272E200DBCF3F /* loginTests */,
